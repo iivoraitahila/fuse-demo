@@ -108,11 +108,6 @@
       <artifactId>arquillian-junit-standalone</artifactId>
       <scope>test</scope>
     </dependency>
-    <dependency>
-	  <groupId>com.coh</groupId>
-	  <artifactId>greetinglibrary2</artifactId>
-	  <version>0.0.1-SNAPSHOT</version>
-	</dependency> 
   </dependencies>
   <build>
     <plugins>
