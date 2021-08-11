@@ -3,7 +3,7 @@ package com.redhat.fuse.boosters.rest.http;
 import org.apache.camel.Header;
 import org.springframework.stereotype.Service;
 
-import com.coh.greetinglibrary2.GreetingStarter;
+//import com.coh.greetinglibrary2.GreetingStarter;
 
 @Service("greetingsService")
 public class GreetingsServiceImpl implements GreetingsService {
@@ -12,7 +12,7 @@ public class GreetingsServiceImpl implements GreetingsService {
 
     @Override
     public Greetings getGreetings(@Header("name") String name ) {
-        return new Greetings( GreetingStarter.getSalutation() + ", " + name );
+        return new Greetings( THE_GREETINGS + ", " + name );
     }
 
 }
